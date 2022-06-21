@@ -10,8 +10,7 @@ spec:
     matchLabels: {{- include "name.matchLabels" . | nindent 6 }}
   template:
     metadata:
-      labels:
-        app: {{ template "fullname" . }}
+      labels: {{- include "name.matchLabels" . | nindent 8 }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
