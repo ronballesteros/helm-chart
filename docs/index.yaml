@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   busybox:
   - apiVersion: v2
-    created: "2022-06-20T13:27:24.953609-10:00"
+    created: "2022-07-12T07:38:31.178014-10:00"
     description: A utility chart to verify clusters and processes
-    digest: 22bf6560781a75d99052c78537263995fac4a1ab658e5ebbce15f1b8b9c054c4
+    digest: 89fe448a4e363e50a4faf779b5817dae16d8bdf29b295dcf3b2281f7215cb25a
     home: https://www.busybox.net/
     icon: https://www.busybox.net/images/busybox1.png
     keywords:
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://ronballesteros.github.io/helm-chart/charts/busybox-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-20T13:27:24.952962-10:00"
+generated: "2022-07-12T07:38:31.175622-10:00"
